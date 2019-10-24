@@ -1,4 +1,18 @@
 # ignore some files
 
-__pycache__
-env
+
+env/
+venv/
+
+*.pyc
+__pycache__/
+
+instance/
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+dist/
+build/
+*.egg-info/
