@@ -1,0 +1,4 @@
+# ignore some files
+
+__pycache__
+env
