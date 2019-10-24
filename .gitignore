@@ -1,6 +1,5 @@
 # ignore some files
 
-
 env/
 venv/
 
