@@ -11,6 +11,8 @@ def create_app(test_config=None):
         DATABASE=os.path.join(app.instance_path, 'creeapi.sqlite'),
     )
 
+
+
     if test_config is None:
         # load the instance config, if it exists, when not testing
         app.config.from_pyfile('config.py', silent=True)
@@ -29,10 +31,11 @@ def create_app(test_config=None):
     def hello():
         return 'Hello, World!'
 
+
     from . import db
     db.init_app(app)
 
-    # does auth.bp have to be matching with our directories
+    # does auth.bp have to be matching the directories
     from . import auth
     app.register_blueprint(auth.bp)
 
