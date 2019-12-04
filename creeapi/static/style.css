@@ -11,6 +11,9 @@
     left: auto;
     margin: 0 auto; } }
 
+
+
+
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 html {
   line-height: 1.15;
@@ -6361,9 +6364,10 @@ a.thumbnail {
   -webkit-animation-delay: 700ms !important;
           animation-delay: 700ms !important; }
 
-html { font-family: sans-serif; background: #eee; padding: 1rem; }
-          body { max-width: 960px; margin: 0 auto; background: white; }
-          h1 { font-family: serif; color: #377ba8; margin: 1rem 0; }
+html { font-family: Menlo, Consolas, DejaVu Sans Mono, monospace; background: #eee; padding: 0rem; }
+          header {font-family: Menlo, Consolas, DejaVu Sans Mono, monospace;}
+          body {  margin: 0 auto; background: white; }
+          h1 {  color: #377ba8; margin: 1rem 0; }
           a { color: #377ba8; }
           hr { border: none; border-top: 1px solid lightgray; }
           nav { background: lightgray; display: flex; align-items: center; padding: 0 0.5rem; }
@@ -6371,7 +6375,7 @@ html { font-family: sans-serif; background: #eee; padding: 1rem; }
           nav h1 a { text-decoration: none; padding: 0.25rem 0.5rem; }
           nav ul  { display: flex; list-style: none; margin: 0; padding: 0; }
           nav ul li a, nav ul li span, header .action { display: block; padding: 0.5rem; }
-          .content { padding: 0 1rem 1rem; }
+
           .content > header { border-bottom: 1px solid lightgray; display: flex; align-items: flex-end; }
           .content > header h1 { flex: auto; margin: 1rem 0 0.25rem 0; }
           .flash { margin: 1em 0; padding: 1em; background: #cae6f6; border: 1px solid #377ba8; }
