@@ -11,3 +11,8 @@ pip -V
 
 # install flask
 pip install flask
+pip install SQLAlchemy
+
+export FLASK_APP=creeapi
+export FLASK_ENV=development
+export PORT=8080
