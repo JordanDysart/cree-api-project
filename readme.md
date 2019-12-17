@@ -1,6 +1,8 @@
 # Cree Api
 
-#### Let's learn some language
+### Let's learn some language
+
+This one is very likely going to be specifically cree, but I would like to focus on creating a platform that allows teachers to create and monitor a students success. This repo should be used to set up the basic class room.
 
 #### Running this server
 
